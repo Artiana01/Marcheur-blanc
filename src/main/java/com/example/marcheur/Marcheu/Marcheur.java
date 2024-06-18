@@ -1,6 +1,5 @@
 package com.example.marcheur.Marcheu;
 
-import com.example.marcheur.Map.Carte;
 import com.example.marcheur.Map.Lieu;
 import com.example.marcheur.Map.Rue;
 
@@ -10,7 +9,6 @@ import java.util.Random;
 
 public class Marcheur {
     private Lieu positionActuelle;
-
     public Marcheur(Lieu positionInitiale) {
         this.positionActuelle = positionInitiale;
     }
@@ -18,7 +16,7 @@ public class Marcheur {
     public Lieu getPositionActuelle() {
         return positionActuelle;
     }
-    public void marcherAleatoirement(Carte carte, String destination) {
+    public void marcherAleatoirement(String destination) {
         List<Lieu> visite = new ArrayList<>();
         Random aleatoire = new Random();
         Lieu lieuPrecedent = null;
@@ -53,7 +51,6 @@ public class Marcheur {
             visite.add(positionActuelle);
         }
 
-        // Affichage de la marche complétée
         System.out.print("Marche complétée : ");
         for (int i = 0; i < visite.size(); i++) {
             if (i != 0) {

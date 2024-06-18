@@ -21,7 +21,7 @@ class MarcheurApplicationTests {
         Lieu lieuInitial = carte.getLieu("HEI");
         Marcheur marcheur = new Marcheur(lieuInitial);
 
-        marcheur.marcherAleatoirement(carte, "ESTI");
+        marcheur.marcherAleatoirement( "ESTI");
         assertEquals("ESTI", marcheur.getPositionActuelle().getNom());
     }
 
@@ -30,9 +30,10 @@ class MarcheurApplicationTests {
         Carte carte = new Carte();
         carte.PlanCarte();
 
+
         Lieu lieuInitial = carte.getLieu("HEI");
         Marcheur marcheur = new Marcheur(lieuInitial);
-        marcheur.marcherAleatoirement(carte, "Nexta");
+        marcheur.marcherAleatoirement("Nexta");
 
         assertEquals("Nexta", marcheur.getPositionActuelle().getNom());
     }
@@ -44,7 +45,7 @@ class MarcheurApplicationTests {
         Lieu lieuInitial = carte.getLieu("HEI");
         Marcheur marcheur = new Marcheur(lieuInitial);
 
-        marcheur.marcherAleatoirement(carte, "Marais");
+        marcheur.marcherAleatoirement("Marais");
 
         assertEquals("Marais", marcheur.getPositionActuelle().getNom());
     }
