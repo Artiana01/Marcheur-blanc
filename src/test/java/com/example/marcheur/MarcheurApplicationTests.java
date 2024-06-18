@@ -1,5 +1,8 @@
 package com.example.marcheur;
 
+import com.example.marcheur.Map.Carte;
+import com.example.marcheur.Map.Lieu;
+import com.example.marcheur.Marcheu.Marcheur;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

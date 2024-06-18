@@ -1,4 +1,6 @@
-package com.example.marcheur;
+package com.example.marcheur.Map;
+
+import com.example.marcheur.Map.Rue;
 
 import java.util.ArrayList;
 import java.util.List;

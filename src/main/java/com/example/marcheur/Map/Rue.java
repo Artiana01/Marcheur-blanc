@@ -1,4 +1,4 @@
-package com.example.marcheur;
+package com.example.marcheur.Map;
 
 public class Rue {
     private Lieu lieu1;

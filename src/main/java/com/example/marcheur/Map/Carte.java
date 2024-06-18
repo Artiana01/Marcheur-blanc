@@ -1,4 +1,4 @@
-package com.example.marcheur;
+package com.example.marcheur.Map;
 
 import java.util.HashMap;
 import java.util.Map;

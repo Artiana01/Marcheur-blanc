@@ -1,4 +1,8 @@
-package com.example.marcheur;
+package com.example.marcheur.Marcheu;
+
+import com.example.marcheur.Map.Carte;
+import com.example.marcheur.Map.Lieu;
+import com.example.marcheur.Marcheu.Marcheur;
 
 public class Main {
     public static void main(String[] args) {
